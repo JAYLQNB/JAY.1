@@ -68,7 +68,7 @@ function createMainWindow()
     end)
     
     Window:Tag({
-        Title = "v1.8",
+        Title = "v1.95",
         Color = Color3.fromHex("#30ff6a")
     })
 
@@ -98,7 +98,7 @@ function createMainWindow()
     
     local MainTab = Window:Tab({
         Title = "主页",
-        Icon = "zap",
+        Icon = "rbxassetid://126801495089120",
         Locked = false,
     })
     
@@ -501,7 +501,7 @@ function createMainWindow()
     
     local InkgameTab = Window:Tab({
         Title = "墨水游戏",
-        Icon = "zap",
+        Icon = "rbxassetid://112131204062522",
         Locked = false,
     })
     
@@ -563,7 +563,7 @@ function createMainWindow()
     
     local NightTab = Window:Tab({
         Title = "在森林中生存99夜",
-        Icon = "map-pin",
+        Icon = "rbxassetid://91153047736622",
         Locked = false,
     })
     
@@ -633,7 +633,7 @@ function createMainWindow()
 
     local ZombiTab = Window:Tab({
         Title = "G&B",
-        Icon = "zap",
+        Icon = "rbxassetid://117138738665199",
         Locked = false,
     })
     
