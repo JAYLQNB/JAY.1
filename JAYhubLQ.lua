@@ -438,7 +438,7 @@ function createMainWindow()
 
     local OftenTab = Window:Tab({
         Title = "死铁轨",
-        Icon = "rbxassetid://110549736139649",
+        Icon = "rbxassetid://117901684416088",
         Locked = false,
     })
     
@@ -715,7 +715,7 @@ function createMainWindow()
     
     local StornTab = Window:Tab({
         Title = "最强战场",
-        Icon = "rbxassetid://110549736139649",
+        Icon = "rbxassetid://112202364928849",
         Locked = false,
     })
     
