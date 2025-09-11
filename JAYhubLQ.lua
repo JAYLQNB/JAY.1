@@ -737,7 +737,7 @@ function createMainWindow()
     
     local DoorTab = Window:Tab({
         Title = "doors",
-        Icon = "zap",
+        Icon = "rbxassetid://137093351358637",
         Locked = false,
     })
 
