@@ -26,7 +26,7 @@ function createMainWindow()
     local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
     local Window = WindUI:CreateWindow({
-        Title = "JAYhub<font color='#00FF00'>1.8</font>",
+        Title = "JAYhub<font color='#00FF00'>1.95</font>",
         Icon = "rbxassetid://4483362748",
         IconTransparency = 0.5,
         IconThemed = true,
@@ -93,7 +93,7 @@ function createMainWindow()
             ColorSequenceKeypoint.new(0.8, Color3.fromRGB(0, 0, 255)),   -- 蓝色
             ColorSequenceKeypoint.new(1, Color3.fromRGB(128, 0, 128))    -- 紫色
         }),
-        StrokeThickness = 3,  
+        StrokeThickness = 1,  
     })
     
     local MainTab = Window:Tab({
@@ -128,7 +128,7 @@ function createMainWindow()
     
     local GeneralTab = Window:Tab({
         Title = "通用",
-        Icon = "zap",
+        Icon = "rbxassetid://104169939182083",
         Locked = false,
     })
     
@@ -438,7 +438,7 @@ function createMainWindow()
 
     local OftenTab = Window:Tab({
         Title = "死铁轨",
-        Icon = "skull",
+        Icon = "rbxassetid://110549736139649",
         Locked = false,
     })
     
@@ -663,7 +663,7 @@ function createMainWindow()
     
     local AbandTab = Window:Tab({
         Title = "被遗弃",
-        Icon = "zap",
+        Icon = "rbxassetid://91574050512501",
         Locked = false,
     })
     
@@ -715,7 +715,7 @@ function createMainWindow()
     
     local StornTab = Window:Tab({
         Title = "最强战场",
-        Icon = "swords",
+        Icon = "rbxassetid://110549736139649",
         Locked = false,
     })
     
@@ -767,7 +767,7 @@ function createMainWindow()
 
     local OtherTab = Window:Tab({
         Title = "其他脚本中心",
-        Icon = "user",
+        Icon = "rbxassetid://134464370307388",
         Locked = false,
     })
 
