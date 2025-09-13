@@ -3,7 +3,7 @@ local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jay108
 WindUI:Popup({
     Title = "欢迎使用JAYhub1.95",
     Icon = "sparkles",
-    Content = "背景是我和给我赞助的人",
+    Content = "感谢支持",
     Buttons = {
         {
             Title = "进入脚本",
@@ -42,7 +42,7 @@ function createMainWindow()
         },
         SideBarWidth = 200,
         ScrollBarEnabled = true,
-        Background = "rbxassetid://72877834262984"
+        Background = "rbxassetid://103599773428042"
     })
     
     local TimeTag = Window:Tag({
@@ -449,7 +449,23 @@ function createMainWindow()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/HeadHarse/DeadRails/refs/heads/main/V5OPSWING", true))()
         end
     })
-    
+
+    OftenTab:Button({
+        Title = "红叶子",
+        Desc = "英文 要解卡功能最多",
+        Callback = function()
+            loadstring(game:HttpGet("https://getnative.cc/script/loader"))()
+        end
+    })
+
+    OftenTab:Button({
+        Title = "LN",
+        Desc = "中文国人制作",
+        Callback = function()
+            loadstring(game:HttpGet("https://github.com/XiaoyeQWQ/state/raw/refs/heads/main/Dead-Rail.lua"))()
+        end
+    })
+ 
     OftenTab:Button({
         Title = "刷债券",
         Desc = "英文 进局里找到Auto bond",
@@ -463,6 +479,22 @@ function createMainWindow()
         Desc = "英文",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/DEADRAILS.github.io/refs/heads/main/mainringta.lua", true))()
+        end
+    })
+    
+    OftenTab:Button({
+        Title = "刷债券",
+        Desc = "英文",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
+        end
+    })
+    
+    OftenTab:Button({
+        Title = "Nat刷债券",
+        Desc = "英文",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
         end
     })
     
@@ -616,6 +648,14 @@ function createMainWindow()
     })
 
     NightTab:Button({
+        Title = "退休",
+        Desc = "中文",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/Item/refs/heads/main/99-Nights-TX-XIAN-MIAN______-_-_--_-_-_-_--_-_-_-_--_-_-_-_-_--_-_-_-__------_-_-_-_.lua"))()
+        end
+    })
+
+    NightTab:Button({
         Title = "VEXOP",
         Desc = "英文",
         Callback = function()
@@ -625,7 +665,7 @@ function createMainWindow()
 
     NightTab:Button({
         Title = "RINGTA",
-        Desc = "英文 要解卡",
+        Desc = "英文",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/99daysloader.github.io/refs/heads/main/ringta.lua"))()
         end
